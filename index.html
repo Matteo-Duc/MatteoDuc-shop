@@ -91,7 +91,7 @@ h1{font-family:'Montserrat',sans-serif;font-size:1.65rem;font-weight:900;color:#
 .modal-gallery{margin-top:10px;overflow-x:auto;display:flex;gap:8px;padding:0 1rem .5rem;scrollbar-width:none}
 .modal-gallery::-webkit-scrollbar{display:none}
 .gallery-thumb{flex-shrink:0;width:calc(100vw - 2rem);max-width:360px;aspect-ratio:1;background:var(--light);border-radius:10px;overflow:hidden;border:1px solid var(--border)}
-.gallery-thumb img{width:100%;height:100%;object-fit:cover}
+.gallery-thumb img{width:100%;height:100%;object-fit:contain}
 
 /* MODAL BODY */
 .modal-body{padding:1rem 1.1rem 2.5rem}
@@ -281,7 +281,7 @@ const products = [
     imgs:[
       "https://authentic-nutrition.com/cdn/shop/files/carbopowder_webp.webp?v=1772786774&width=540"
     ],
-    desc:"Je l'utilise entre J_5 et J_2 avant une compétition à raison de 1L de boisson. Glucides de qualité en poudre pour charger les réserves avant une longue compétition. Simple, efficace, sans additifs inutiles.",
+    desc:"Je l'utilise entre J-5 et J-2 avant une compétition à raison de 1L de boisson. Glucides de qualité en poudre pour charger les réserves avant une longue compétition. Simple, efficace, sans additifs inutiles.",
     code:"MATTEO20",
     tags:["Glucides","Charge","Récupération"],
     link:"https://authentic-nutrition.com/products/carbo-powder",
@@ -324,14 +324,14 @@ const products = [
     brand:"Authentic Nutrition",
     name:"Booster+ 500 Boisson isotonique",
     short:"Booster+ 500",
-    price:"10,75€",
+    price:"21,49€",
     discount:"-20%",
     imgs:[
       "https://authentic-nutrition.com/cdn/shop/files/citron-500webp.webp?v=1776156130"
     ],
-    desc:"Le Booster+ en format 500g à prix réduit — date courte, qualité identique. Le meilleur rapport qualité-prix pour s'approvisionner avant une période de compétition.",
+    desc:"Le Booster+ est ma boisson isotonique que j'utilise en entraînement et compétition. Hyper digeste et complete en terme d'apport nutritionnel. Le meilleur rapport qualité-prix.",
     code:"MATTEO20",
-    tags:["Bon plan","Anti-gaspi","Format 500g"],
+    tags:["Boisson d'effort","Isotonique","Format 500g"],
     link:"https://authentic-nutrition.com/products/ddm-06-26-boisson-energetique-isotonique-booster-500",
     note:"Code -20% sur toute la boutique Authentic Nutrition"
   },
